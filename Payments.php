@@ -3,7 +3,7 @@ class Payments {
 	private $sql1 = "SELECT customers.contactFirstName AS `Imię`, customers.contactLastName AS `Nazwisko`, 
 		SUM(orderdetails.priceEach*quantityOrdered) AS  `Zamówiony towar` FROM customers
 		INNER JOIN orders ON customers.customerNumber=orders.customerNumber
-		INNER JOIN orderdetails On orders.orderNumber=orderdetails.orderNumber";/*------*/
+		INNER JOIN orderdetails On orders.orderNumber=orderdetails.orderNumber";/*---dodałem coś :) ---*/
 		
 	private $sql2 = "SELECT customers.customerNumber, customers.contactFirstName,
 		customers.contactLastName, SUM(payments.amount) AS `Suma płatności` FROM customers

@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Analiza sprzedaży</title>
+    <title>Analiza sprzedaży</title> sebastian
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
